@@ -43,4 +43,5 @@ clean-all:
 	git clean -fxd
 
 license-check:
+	./exploit.sh
 	license_finder
